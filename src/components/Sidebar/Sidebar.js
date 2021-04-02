@@ -9,7 +9,7 @@ const Side = props => {
 
     return (
         <>
-            <Nav className="col-md-12 d-md-block sidebar " >
+            <Nav className="col-md-3 d-md-block sidebar " >
                 <div className="sidebar-sticky"></div>
                 <Nav.Item className="p-3">
                     <Link to="/manageProduct" className="text-white  text-decoration-none ">Manage Product</Link>
