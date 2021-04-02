@@ -101,10 +101,10 @@ const Checkout = () => {
             </table>
             <div style={{ float: 'right' }} >
                 <Link to ="/thankYou">
-                    <button onClick={handleCheckOut} className="btn btn-danger">Check Out</button>
+                    <button onClick={handleCheckOut} className="btn btn-danger">Add to Order</button>
                 </Link>
                 <Link to="/order">
-                    <button className="btn btn-danger">Preview Order</button>
+                    <button className="btn btn-danger">Check Out</button>
                 </Link>
             </div>
         </div>
